@@ -6,7 +6,11 @@ You need to install vba-json script here:
 https://github.com/VBA-tools/VBA-JSON
 ```
 
-Then from your sheet, press `ctrl` + `f11` and insert new module:
+Then from your sheet, press `ctrl` + `f11`:
+- Go to `Tools, choose `References` and enable both `Microsoft XML, v6.0` (for Microsoft Word 2014 and above) and `Microsoft scripting runtime`
+
+![](https://i.imgur.com/3srrw1b.png)
+- Create new module and paste this code, I hope you get general idea:
 
 ```
 Public Sub XmlHttpTutorial()
