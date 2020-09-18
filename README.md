@@ -38,3 +38,8 @@ Public Sub XmlHttpTutorial()
   Next V
 End Sub
 ```
+
+- Press F5 to run the script
+
+### Demo
+![](https://i.imgur.com/5vupNbj.gif)
